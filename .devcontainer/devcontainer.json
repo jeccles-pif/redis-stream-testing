@@ -1,0 +1,9 @@
+{
+    "name": "My Codespace",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "app",
+    "runServices": ["redis"],
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "echo 'Codespace setup complete'"
+  }
+  
